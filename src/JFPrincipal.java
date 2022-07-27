@@ -45,6 +45,7 @@ public class JFPrincipal extends JFrame {
 		String sPeso, sAltura, respuesta,stringIMC;
 
 	public JFPrincipal() {
+		setResizable(false);
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\micka\\OneDrive\\Desktop\\iconoImc.png"));
 		setBackground(new Color(144, 238, 144));
 		setTitle("IMC-Calc");
